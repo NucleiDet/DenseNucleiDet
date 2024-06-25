@@ -1,0 +1,3 @@
+#! /bin/bash
+
+python ./tools/test.py /home/rubyyao/PycharmProjects/RDS/RDSNet-master_00_ori/configs/rdsnet/rdsnet_r50_fpn_1x_ruby_mo_coco.py /home/rubyyao/PycharmProjects/RDS/RDSNet-master_00_ori/work_dirs/mo/rdsnet_r50_fpn_1x/epoch_1.pth --eval bbox --out /home/rubyyao/PycharmProjects/RDS/RDSNet-master_00_ori/work_dirs/mo/rdsnet_r50_fpn_1x/result.pkl
